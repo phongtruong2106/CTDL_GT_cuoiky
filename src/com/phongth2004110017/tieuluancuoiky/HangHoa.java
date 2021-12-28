@@ -22,7 +22,7 @@ public class HangHoa{
     public HangHoa() {
     }
 
-    public HangHoa(String l, String id, String name, double g, int s, String d) {
+    public HangHoa(String l, String id, String name, double g, int s, String d){
         loai = l;
         mahang = id;
         tenhanghoa = name;

@@ -15,7 +15,7 @@ public class Node {
         next = null;
     }
 
-    public Node(HangHoa hangHoa, Node node) {
+    public Node(HangHoa hangHoa, Node node){
         data = hangHoa;
         next = node;
     }

@@ -13,7 +13,7 @@ public class KhoLinkedList {
     Node save;
     static Scanner sc = new Scanner(System.in);
 
-    public KhoLinkedList() {
+    public KhoLinkedList(){
     }
 
     void addTail(HangHoa hangHoa) {

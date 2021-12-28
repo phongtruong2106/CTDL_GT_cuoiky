@@ -66,7 +66,7 @@ public class Main {
                     double gianhap = sc.nextDouble();
                     if (qlkho.timgia(gianhap) != null) {
                         System.out.println(" có trong danh sách");
-                        qlkho.timgia(gianhap).data.inThongTin();
+                        qlkho.timgia(gianhap).data.inThongTin( );
                     } else {
                         System.out.println("Không tìm thấy");
                     }
